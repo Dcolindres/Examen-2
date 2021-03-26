@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;500;900&display=swap');
+
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-blanco: #c3c3c3;
+}
+header{
+	background-color: #fff;
+}
+#hero-slides h2{
+	
+	font-size: 25px;
+	
+}
+#hero-slides p{
+	
+	
+	font-size: 80px;
+}
+
+#hero-slides h2 p {
+	
+	padding: 5%;
+}
+#hero-slides{
+	
+	margin-bottom: 50px;
+}
+#Conferences{
+	text-align: center;
+
+	
+}
+#Conferences h3 p {
+	
+	padding: 3%;
+}
+
+#Conferences img{
+	margin-bottom: 25px;
+}
+.row img {
+	
+	width: 500px;
+	height: 250px;
+}
+#Conferences{
+	
+	margin-bottom: 100px;
+}
+.circulo{
+width: 90px;
+height: 90px;
+line-height: 20;
+border-radius: 100%;	
+align-content: center;
+text-align: center;	
+}
+#Speakers{
+	padding: 4%;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 100px;
+}
+#Meetings{
+	background-color: var(--color-negro);
+	color:var(--color-blanco) ;
+	padding-top:  80px;
+	padding-bottom: 80px;
+	
+}
+
+.fa-lightbulb{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.fa-award{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.fa-comments{
+	
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+#Sponsors img{
+	height: 100px;
+	width:250px;
+}
+#Sponsors {
+	
+	text-align: center;
+	align-content: center;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
